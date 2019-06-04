@@ -1,0 +1,1485 @@
+{
+   "chapter": [
+        {
+            "title": "be動詞（現在形）",
+            "index":1,
+            "description":"",
+            "question": [
+                {
+                    "content": "僕はアキラです。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "僕は",
+                        "です",
+                        "アキラ",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "am",
+                        "Akira",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "彼らは親切です。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "彼らは",
+                        "です",
+                        "親切",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "They",
+                        "are",
+                        "kind",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "彼はニュージーランド出身です。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "です",
+                        "",
+                        "ニュージーランドから",
+                        ""
+                    ],
+                    "answers": [
+                        "He",
+                        "is",
+                        "",
+                        "from New Zealand",
+                        ""
+                    ]
+                },
+                {
+                    "content": "これは私のかばんです。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "これは",
+                        "です",
+                        "私のかばん",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "This",
+                        "is",
+                        "my bag",
+                        "",
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "一般動詞（現在形）",
+            "index":2,
+            "description":"",
+            "question": [
+                {
+                    "content": "私には弟がいる。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "持っている",
+                        "弟を",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "have",
+                        "a brother",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "彼女は毎日バレーボールをする。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "彼女は",
+                        "する",
+                        "バレーボールを",
+                        "",
+                        "毎日"
+                    ],
+                    "answers": [
+                        "She",
+                        "plays",
+                        "volleyball",
+                        "",
+                        "every day"
+                    ]
+                },
+                {
+                    "content": "彼は学校で中国語を勉強する。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "勉強する",
+                        "中国語を",
+                        "学校で",
+                        ""
+                    ],
+                    "answers": [
+                        "He",
+                        "studies",
+                        "Chinese",
+                        "at school",
+                        ""
+                    ]
+                },
+                {
+                    "content": "私たちは夕食の前に手を洗う。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "私たちは",
+                        "洗う",
+                        "手を",
+                        "",
+                        "夕食の前に"
+                    ],
+                    "answers": [
+                        "We",
+                        "wash",
+                        "our hands",
+                        "",
+                        "before dinner"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "助動詞",
+            "index":3,
+            "description":"",
+            "question": [
+                {
+                    "content": "あなたの兄は車を運転できる。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "あなたの兄は",
+                        "運転できる",
+                        "車を",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "Your brother",
+                        "can drive",
+                        "a car",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "あなたは宿題をしなくてはいけない。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "あなたは",
+                        "しなくてはいけない",
+                        "宿題を",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "You",
+                        "must do",
+                        "your homework",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "彼女はバイオリンを弾くべきだ。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "彼女は",
+                        "弾くべきだ",
+                        "バイオリンを",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "She",
+                        "should play",
+                        "the violin",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "私は誕生日に、あなたにプレゼントをあげよう。",
+                    "index": 4,
+                    "type": 13,
+                    "hints": [
+                        "私は",
+                        "あげよう",
+                        "あなたに",
+                        "プレゼントを",
+                        "",
+                        "誕生日に"
+                    ],
+                    "answers": [
+                        "I",
+                        "will give",
+                        "you",
+                        "a present",
+                        "",
+                        "on your birthday"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "進行形",
+            "index":4,
+            "description":"",
+            "question": [
+                {
+                    "content": "私は今、手紙を書いている。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "書いている",
+                        "手紙を",
+                        "",
+                        "今"
+                    ],
+                    "answers": [
+                        "I",
+                        "am writing",
+                        "a letter",
+                        "",
+                        "now"
+                    ]
+                },
+                {
+                    "content": "ケイトは今、川で泳いでいる。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "ケイトは",
+                        "泳いでいる",
+                        "",
+                        "川で",
+                        "今"
+                    ],
+                    "answers": [
+                        "Kate",
+                        "is swimming",
+                        "",
+                        "in the river",
+                        "now"
+                    ]
+                },
+                {
+                    "content": "私のおばはそのとき、部屋で本を読んでいた。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "私のおばは",
+                        "読んでいた",
+                        "本を",
+                        "部屋で",
+                        "そのとき"
+                    ],
+                    "answers": [
+                        "My aunt",
+                        "was reading",
+                        "a book",
+                        "in her room",
+                        "then"
+                    ]
+                },
+                {
+                    "content": "彼らはそのとき、公園でサッカーをしていた。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "彼らは",
+                        "していた",
+                        "サッカーを",
+                        "公園で",
+                        "そのとき"
+                    ],
+                    "answers": [
+                        "They",
+                        "were playing",
+                        "soccer",
+                        "in the park",
+                        "then"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "未来表現",
+            "index":5,
+            "description":"",
+            "question": [
+                {
+                    "content": "私は明日、自転車に乗るつもりだ。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "乗るつもりだ",
+                        "自転車に",
+                        "",
+                        "明日"
+                    ],
+                    "answers": [
+                        "I",
+                        "am going to ride",
+                        "a bike",
+                        "",
+                        "tomorrow"
+                    ]
+                },
+                {
+                    "content": "彼女は今週末、おじを訪ねるつもりだ。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "彼女は",
+                        "訪ねるつもりだ",
+                        "おじを",
+                        "",
+                        "今週末"
+                    ],
+                    "answers": [
+                        "She",
+                        "is going to visit",
+                        "her uncle",
+                        "",
+                        "this weekend"
+                    ]
+                },
+                {
+                    "content": "彼は明日の朝、家にいるでしょう。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "いるでしょう",
+                        "",
+                        "家に",
+                        "明日の朝"
+                    ],
+                    "answers": [
+                        "He",
+                        "will be",
+                        "",
+                        "at home",
+                        "tomorrow morning"
+                    ]
+                },
+                {
+                    "content": "彼らは来年、１５歳になります。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "彼らは",
+                        "なります",
+                        "１５歳に",
+                        "",
+                        "来年"
+                    ],
+                    "answers": [
+                        "They",
+                        "will be",
+                        "15 years old",
+                        "",
+                        "next year"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "過去形",
+            "index":6,
+            "description":"",
+            "question": [
+                {
+                    "content": "私は昨日、疲れていました。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "でした",
+                        "疲れている状態",
+                        "",
+                        "昨日"
+                    ],
+                    "answers": [
+                        "I",
+                        "was",
+                        "tired",
+                        "",
+                        "yesterday"
+                    ]
+                },
+                {
+                    "content": "私たちは先月、ロンドンにいました。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "私たちは",
+                        "いました",
+                        "",
+                        "ロンドンに",
+                        "先月"
+                    ],
+                    "answers": [
+                        "We",
+                        "were",
+                        "",
+                        "in London",
+                        "last month"
+                    ]
+                },
+                {
+                    "content": "彼は今朝、私のカメラを使った。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "使った",
+                        "私のカメラを",
+                        "",
+                        "今朝"
+                    ],
+                    "answers": [
+                        "He",
+                        "used",
+                        "my camera",
+                        "",
+                        "this morning"
+                    ]
+                },
+                {
+                    "content": "私の姉は３日前、奈良に行った。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "私の姉は",
+                        "行った",
+                        "",
+                        "奈良に",
+                        "３日前"
+                    ],
+                    "answers": [
+                        "My sister",
+                        "went",
+                        "",
+                        "to Nara",
+                        "three days ago"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "現在完了形",
+            "index":7,
+            "description":"",
+            "question": [
+                {
+                    "content": "私たちは２０年間、京都に住んでいる。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "私たちは",
+                        "住んでいる",
+                        "",
+                        "京都に",
+                        "２０年間"
+                    ],
+                    "answers": [
+                        "We",
+                        "have lived",
+                        "",
+                        "in Kyoto",
+                        "for 20 years"
+                    ]
+                },
+                {
+                    "content": "彼は富士山に3回登ったことがある。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "登ったことがある",
+                        "富士山に",
+                        "",
+                        "3回"
+                    ],
+                    "answers": [
+                        "He",
+                        "has climbed",
+                        "Mt. Fuji",
+                        "",
+                        "three times"
+                    ]
+                },
+                {
+                    "content": "その電車はもう出発してしまった。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "その電車は",
+                        "もう出発してしまった",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "The train",
+                        "has already left",
+                        "",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "私は昼食をちょうど食べたところだ。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "ちょうど食べたところだ",
+                        "昼食を",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "have just eaten",
+                        "lunch",
+                        "",
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "「だれ」\n　かのことについて話す。",
+            "index":8,
+            "description":"ケイとケンの会話です。ケンのことば（１－４）を英語で表現しましょう。\n\n\nケイ：　3年B組の洋介君って、知っている？\n\nケン：　1. 知っているよ。\n　　　　2. 昨日、駅で会ったよ。\n　　　　3. 彼って音楽が好きなんだよ。\n　　　　4. 毎日ギターを弾いている。",
+            "question": [
+                {
+                    "content": "知っているよ。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "知っている",
+                        "彼を",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "know",
+                        "him",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "昨日、駅で会ったよ。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "会った",
+                        "彼に",
+                        "駅で",
+                        "昨日"
+                    ],
+                    "answers": [
+                        "I",
+                        "saw",
+                        "him",
+                        "at the station",
+                        "yesterday"
+                    ]
+                },
+                {
+                    "content": "彼って音楽が好きなんだよ。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "好きだ",
+                        "音楽が",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "He",
+                        "likes",
+                        "music",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "毎日ギターを弾いている。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "弾く",
+                        "ギターを",
+                        "",
+                        "毎日"
+                    ],
+                    "answers": [
+                        "He",
+                        "plays",
+                        "the guitar",
+                        "",
+                        "every day"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "「なに」について話す。",
+            "index":9,
+            "description":"ケイとケンの会話です。ケンのことば（１－４）を英語で表現しましょう。\n\n\nケイ：　ダニエルは何をしているのかな？\n\nケン：　1. いま、サッカーをしているよ。\n　　　　2. 毎日、公園でサッカーをしているよ。\n　　　　3. 昨年は、野球が好きだったのにね。\n　　　　4. 来年は、ラグビーを好きになるかもね。",
+            "question": [
+                {
+                    "content": "いま、サッカーをしているよ。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "している",
+                        "サッカーを",
+                        "",
+                        "いま"
+                    ],
+                    "answers": [
+                        "He",
+                        "is playing",
+                        "soccer",
+                        "",
+                        "now"
+                    ]
+                },
+                {
+                    "content": "毎日、公園でサッカーをしているよ。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "する",
+                        "サッカーを",
+                        "公園で",
+                        "毎日"
+                    ],
+                    "answers": [
+                        "He",
+                        "plays",
+                        "soccer",
+                        "in the park",
+                        "every day"
+                    ]
+                },
+                {
+                    "content": "昨年は、野球が好きだったのにね。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "好きだった",
+                        "野球が",
+                        "",
+                        "昨年"
+                    ],
+                    "answers": [
+                        "He",
+                        "liked",
+                        "baseball",
+                        "",
+                        "last year"
+                    ]
+                },
+                {
+                    "content": "来年は、ラグビーを好きになるかもね。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "好きかもしれない",
+                        "ラグビーが",
+                        "",
+                        "来年"
+                    ],
+                    "answers": [
+                        "He",
+                        "may like",
+                        "rugby",
+                        "",
+                        "next year"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "「だれに・なにを」\n　してあげるかについて話す。",
+            "index":10,
+            "description":"ケイとケンの会話です。ケンのことば（１－４）を英語で表現しましょう。\n\n\nケイ：　スミス先生って知っている？カナダの出身だそうよ。\n\nケン：　1. 毎週土曜日に、英語を教えてくれるの。\n　　　　2. 先週の月曜日に、たくさん絵葉書をくれたよ。\n　　　　3. 明日、そのうち何枚か見せてあげよう。\n　　　　4. 誕生日にプレゼントを買ってあげよう。",
+            "question": [
+                {
+                    "content": "毎週土曜日に、英語を教えてくれるの。",
+                    "index": 1,
+                    "type": 13,
+                    "hints": [
+                        "彼は",
+                        "教える",
+                        "私に",
+                        "英語を",
+                        "",
+                        "毎週土曜日に"
+                    ],
+                    "answers": [
+                        "He",
+                        "teaches",
+                        "me",
+                        "English",
+                        "",
+                        "every Saturday"
+                    ]
+                },
+                {
+                    "content": "先週の月曜日に、たくさん絵葉書をくれたよ。",
+                    "index": 2,
+                    "type": 13,
+                    "hints": [
+                        "彼は",
+                        "与えた",
+                        "私に",
+                        "たくさんの絵葉書を",
+                        "",
+                        "先週の月曜日に"
+                    ],
+                    "answers": [
+                        "He",
+                        "gave",
+                        "me",
+                        "many postcards",
+                        "",
+                        "last Monday"
+                    ]
+                },
+                {
+                    "content": "明日、そのうち何枚か見せてあげよう。",
+                    "index": 3,
+                    "type": 13,
+                    "hints": [
+                        "私は",
+                        "見せよう",
+                        "あなたに",
+                        "そのうちの何枚かを",
+                        "",
+                        "明日"
+                    ],
+                    "answers": [
+                        "I",
+                        "will show",
+                        "you",
+                        "some of them",
+                        "",
+                        "tomorrow"
+                    ]
+                },
+                {
+                    "content": "誕生日にプレゼントを買ってあげよう。",
+                    "index": 4,
+                    "type": 13,
+                    "hints": [
+                        "私は",
+                        "買うだろう",
+                        "彼に",
+                        "プレゼントを",
+                        "",
+                        "彼の誕生日に"
+                    ],
+                    "answers": [
+                        "I",
+                        "will buy",
+                        "him",
+                        "a present",
+                        "",
+                        "on his birthday"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "「なにを」「どこ」\n　に置いたかについて話す。",
+            "index":11,
+            "description":"ケイとケンの会話です。ケンのことば（１－４）を英語で表現しましょう。\n\n\nケイ：　買い物、行ってくれた？\n\nケン：　1. 牛乳は冷蔵庫の中に入れたよ。\n　　　　2. たまごはテーブルの上に置いておくね。    \n　　　　3. 自転車をあの店に忘れてきちゃった。\n　　　　4. カギをどこかに落としちゃった。",
+            "question": [
+                {
+                    "content": "牛乳は冷蔵庫の中に入れたよ。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "置いた",
+                        "牛乳を",
+                        "冷蔵庫の中に",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "put",
+                        "the milk",
+                        "in the fridge",
+                        ""
+                    ]
+                },
+                {
+                    "content": "たまごはテーブルの上に置いておくね。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "置くつもりだ",
+                        "たまごを",
+                        "テーブルの上に",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "will put",
+                        "the eggs",
+                        "on the table",
+                        ""
+                    ]
+                },
+                {
+                    "content": "自転車をあの店に忘れてきちゃった。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "置き忘れた",
+                        "自転車を",
+                        "あの店に",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "left",
+                        "my bicycle",
+                        "at that shop",
+                        ""
+                    ]
+                },
+                {
+                    "content": "カギをどこかに落としちゃった。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "落とした",
+                        "カギを",
+                        "どこかに",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "dropped",
+                        "my key",
+                        "somewhere",
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "「どこ」について話す。",
+            "index":12,
+            "description":"ケイとケンの会話です。ケンのことば（１－４）を英語で表現しましょう。\n\n\nケイ：　トシはどこかな？\n\nケン：　1. いま、２階にいるよ。\n　　　　2. 自分の部屋で本を読んでいるよ。\n　　　　3. 午後は、図書館に行くんだって。\n　　　　4. そこで宿題をするようだよ。",
+            "question": [
+                {
+                    "content": "いま、２階にいるよ。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "いる",
+                        "",
+                        "２階に",
+                        "いま"
+                    ],
+                    "answers": [
+                        "He",
+                        "is",
+                        "",
+                        "upstairs",
+                        "now"
+                    ]
+                },
+                {
+                    "content": "自分の部屋で本を読んでいるよ。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "読んでいる",
+                        "本を",
+                        "彼の部屋で",
+                        ""
+                    ],
+                    "answers": [
+                        "He",
+                        "is reading",
+                        "a book",
+                        "in his room",
+                        ""
+                    ]
+                },
+                {
+                    "content": "午後は、図書館に行くんだって。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "行くだろう",
+                        "",
+                        "図書館に",
+                        "今日の午後"
+                    ],
+                    "answers": [
+                        "He",
+                        "will go",
+                        "",
+                        "to the library",
+                        "this afternoon"
+                    ]
+                },
+                {
+                    "content": "そこで宿題をするようだよ。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "するつもりだ",
+                        "自分の宿題",
+                        "そこで",
+                        ""
+                    ],
+                    "answers": [
+                        "He",
+                        "will do",
+                        "his homework",
+                        "there",
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "「いつ」について話す。",
+            "index":13,
+            "description":"ケイとケンの会話です。ケンのことば（１－４）を英語で表現しましょう。\n\n\nケイ：　最近、奈良に行ったの？ \n\nケン：　1. 先週、行ったよ。\n　　　　2. そこには5時間いたよ。 \n　　　　3. 来月は、金沢に行くつもり。\n　　　　4. 3日間は滞在しようかな。",
+            "question": [
+                {
+                    "content": "先週、行ったよ。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "行った",
+                        "",
+                        "そこに",
+                        "先週"
+                    ],
+                    "answers": [
+                        "I",
+                        "went",
+                        "",
+                        "there",
+                        "last week"
+                    ]
+                },
+                {
+                    "content": "そこには5時間いたよ。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "いた",
+                        "",
+                        "そこに",
+                        "５時間"
+                    ],
+                    "answers": [
+                        "I",
+                        "was",
+                        "",
+                        "there",
+                        "for five hours"
+                    ]
+                },
+                {
+                    "content": "来月は、金沢に行くつもり。",
+                    "index": 3,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "いくつもりだ",
+                        "",
+                        "金沢に",
+                        "来月"
+                    ],
+                    "answers": [
+                        "I",
+                        "will go",
+                        "",
+                        "to Kanazawa",
+                        "next month"
+                    ]
+                },
+                {
+                    "content": "3日間は滞在しようかな。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "滞在するつもりだ",
+                        "",
+                        "そこに",
+                        "３日間"
+                    ],
+                    "answers": [
+                        "I",
+                        "will stay",
+                        "",
+                        "there",
+                        "for three days"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "応用問題の復習",
+            "index":14,
+            "description":"応用問題の1〜6章で学習した英文を復習してみましょう。\n\n\n1. 彼って音楽が好きなんだよ。\n2. 毎日、公園でサッカーしているよ。\n3. 毎週土曜日に、英語を教えてくれるの。\n4. たまごはテーブルの上に置いておくね。\n5. 自分の部屋で本を読んでいるよ。\n6. 来月は、金沢に行くつもり。",
+            "question": [
+                {
+                    "content": "彼って音楽が好きなんだよ。",
+                    "index": 1,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "好きだ",
+                        "音楽が",
+                        "",
+                        ""
+                    ],
+                    "answers": [
+                        "He",
+                        "likes",
+                        "music",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "content": "毎日、公園でサッカーをしているよ。",
+                    "index": 2,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "する",
+                        "サッカーを",
+                        "公園で",
+                        "毎日"
+                    ],
+                    "answers": [
+                        "He",
+                        "plays",
+                        "soccer",
+                        "in the park",
+                        "every day"
+                    ]
+                },
+                {
+                    "content": "毎週土曜日に、英語を教えてくれるの。",
+                    "index": 3,
+                    "type": 13,
+                    "hints": [
+                        "彼は",
+                        "教える",
+                        "私に",
+                        "英語を",
+                        "",
+                        "毎週土曜日に"
+                    ],
+                    "answers": [
+                        "He",
+                        "teaches",
+                        "me",
+                        "English",
+                        "",
+                        "every Saturday"
+                    ]
+                },
+                {
+                    "content": "たまごはテーブルの上に置いておくね。",
+                    "index": 4,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "置くつもりだ",
+                        "たまごを",
+                        "テーブルの上に",
+                        ""
+                    ],
+                    "answers": [
+                        "I",
+                        "will put",
+                        "the eggs",
+                        "on the table",
+                        ""
+                    ]
+                },
+                {
+                    "content": "自分の部屋で本を読んでいるよ。",
+                    "index": 5,
+                    "type": 3,
+                    "hints": [
+                        "彼は",
+                        "読んでいる",
+                        "本を",
+                        "彼の部屋で",
+                        ""
+                    ],
+                    "answers": [
+                        "He",
+                        "is reading",
+                        "a book",
+                        "in his room",
+                        ""
+                    ]
+                },
+                {
+                    "content": "来月は、金沢に行くつもり。",
+                    "index": 6,
+                    "type": 3,
+                    "hints": [
+                        "私は",
+                        "いくつもりだ",
+                        "",
+                        "金沢に",
+                        "来月"
+                    ],
+                    "answers": [
+                        "I",
+                        "will go",
+                        "",
+                        "to Kanazawa",
+                        "next month"
+                    ]
+                }
+            ]
+        }
+   ],
+   "pattern":[
+        {
+            "type": 1,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ",
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 2,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ",
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 3,
+            "item":[
+                "だれが",
+                "する\n（です）",
+                "だれ・なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 4,
+            "item":[
+                "玉手箱",
+                "だれが",
+                "する",
+                "だれ・なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 5,
+            "item":[
+                "玉手箱",
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ",
+                "玉手箱",
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 6,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ",
+                "玉手箱"
+            ]
+        },
+        {
+            "type": 7,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ",
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 8,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ",
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 9,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ",
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 10,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ",
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 11,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ",
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 12,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ",
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 13,
+            "item":[
+                "だれが",
+                "する\n（です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 14,
+            "item":[
+                "玉手箱",
+                "だれが",
+                "する",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 15,
+            "item":[
+                "玉手箱",
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ",
+                "玉手箱",
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 16,
+            "item":[
+                "玉手箱",
+                "だれが",
+                "する （です）",
+                "だれ・なに",
+                "どこ",
+                "いつ",
+                "玉手箱",
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 17,
+            "item":[
+                "玉手箱",
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ",
+                "玉手箱",
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ"
+            ]
+        },
+        {
+            "type": 18,
+            "item":[
+                "だれが",
+                "する （です）",
+                "だれ",
+                "なに",
+                "どこ",
+                "いつ",
+                "玉手箱"
+            ]
+        }
+   ]
+}

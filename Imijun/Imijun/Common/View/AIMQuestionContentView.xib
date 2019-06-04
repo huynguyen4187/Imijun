@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AIMQuestionContentView" customModule="Imijun" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="702"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptl-Tu-E8u" customClass="AIMButtonCommon" customModule="Imijun" customModuleProvider="target">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="JhT-f7-1iy"/>
+                        <constraint firstAttribute="width" constant="123" id="kqu-5v-qNd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                    <state key="normal" title="日本語ヒント">
+                        <color key="titleColor" red="0.0" green="0.63921568630000003" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                            <color key="value" red="0.0" green="0.63921568630000003" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="JhT-f7-1iy"/>
+                            <exclude reference="kqu-5v-qNd"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="JhT-f7-1iy"/>
+                            <include reference="kqu-5v-qNd"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="btnShowHint:" destination="iN0-l3-epB" eventType="touchDown" id="dNL-Fa-ewn"/>
+                        <action selector="btnShowHint:" destination="iN0-l3-epB" eventType="touchDragInside" id="g74-UB-KOl"/>
+                        <action selector="btnShowHint:" destination="iN0-l3-epB" eventType="touchUpInside" id="guk-jy-vMI"/>
+                        <action selector="showTextPattern:" destination="iN0-l3-epB" eventType="touchDragOutside" id="N6W-em-VVE"/>
+                        <action selector="showTextPatternWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="GNg-CU-8YV"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="僕はアキラです。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIt-Jd-3hd">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="954" id="hUC-40-HKk"/>
+                        <constraint firstAttribute="height" constant="112" id="n4D-D1-PzY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="30"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="hUC-40-HKk"/>
+                            <exclude reference="n4D-D1-PzY"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="hUC-40-HKk"/>
+                            <include reference="n4D-D1-PzY"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ptl-Tu-E8u" firstAttribute="top" secondItem="aIt-Jd-3hd" secondAttribute="bottom" constant="22" id="BtO-Fe-MtG"/>
+                <constraint firstItem="ptl-Tu-E8u" firstAttribute="trailing" secondItem="aIt-Jd-3hd" secondAttribute="trailing" id="LGr-xH-FJb"/>
+                <constraint firstItem="aIt-Jd-3hd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="35" id="ela-2i-fml"/>
+                <constraint firstItem="aIt-Jd-3hd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hke-rg-iNy">
+                    <variation key="widthClass=regular" constant="0.0"/>
+                </constraint>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="ptl-Tu-E8u"/>
+                    <exclude reference="aIt-Jd-3hd"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="BtO-Fe-MtG"/>
+                    <exclude reference="LGr-xH-FJb"/>
+                    <exclude reference="ela-2i-fml"/>
+                    <exclude reference="hke-rg-iNy"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=regular">
+                <mask key="subviews">
+                    <include reference="ptl-Tu-E8u"/>
+                    <include reference="aIt-Jd-3hd"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="BtO-Fe-MtG"/>
+                    <include reference="LGr-xH-FJb"/>
+                    <include reference="ela-2i-fml"/>
+                    <include reference="hke-rg-iNy"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="labelQuestion" destination="aIt-Jd-3hd" id="LuT-hK-5m9"/>
+                <outlet property="outletButtonShowHint" destination="ptl-Tu-E8u" id="rhl-p5-LCf"/>
+            </connections>
+            <point key="canvasLocation" x="663" y="447.5"/>
+        </view>
+    </objects>
+</document>

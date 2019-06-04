@@ -1,0 +1,6 @@
+framework module Pods_Imijun {
+  umbrella header "Pods-Imijun-umbrella.h"
+
+  export *
+  module * { export * }
+}

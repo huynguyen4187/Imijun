@@ -1,0 +1,5 @@
+# Podfile
+use_frameworks!
+target 'Imijun' do
+    pod 'RealmSwift'
+end  

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AIMListPieceView" customModule="Imijun" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="245"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="AJA-as-2Vf">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMs-Um-c2B" customClass="AIMButtonCommon" customModule="Imijun" customModuleProvider="target">
+                    <rect key="frame" x="866" y="-5" width="123" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="0zD-hS-J9g"/>
+                        <constraint firstAttribute="width" constant="123" id="LA4-U4-2EP"/>
+                        <constraint firstAttribute="height" constant="33" id="knU-K9-BHt"/>
+                        <constraint firstAttribute="width" constant="123" id="kwW-T8-OLE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
+                    <state key="normal" title="英単語ヒント">
+                        <color key="titleColor" red="0.0" green="0.63921568630000003" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                            <color key="value" red="0.0" green="0.63921568630000003" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="knU-K9-BHt"/>
+                            <exclude reference="kwW-T8-OLE"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="knU-K9-BHt"/>
+                            <include reference="kwW-T8-OLE"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="btnShowEnglishHint:" destination="iN0-l3-epB" eventType="touchDragInside" id="7Ke-Ib-3RN"/>
+                        <action selector="btnShowEnglishHint:" destination="iN0-l3-epB" eventType="touchDown" id="HJN-dP-Ler"/>
+                        <action selector="btnShowEnglishHint:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wbb-BC-fta"/>
+                        <action selector="showEnglishTextPattern:" destination="iN0-l3-epB" eventType="touchDragOutside" id="3k6-Of-Y1S"/>
+                        <action selector="showEnglishTextPattern:" destination="iN0-l3-epB" eventType="touchUpInside" id="ReH-Oh-MAh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qat-WF-p3R">
+                    <rect key="frame" x="461" y="0.0" width="103" height="49"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <scrollView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxd-xr-mD1">
+                    <rect key="frame" x="0.0" y="45" width="1024" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JMs-Um-c2B" secondAttribute="trailing" constant="35" id="K5J-IW-bkb"/>
+                <constraint firstItem="JMs-Um-c2B" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-5" id="pVp-BL-eqZ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="englishHintButton" destination="JMs-Um-c2B" id="1EA-2U-nz7"/>
+                <outlet property="scrollView" destination="Vxd-xr-mD1" id="Yjc-ZE-G2D"/>
+            </connections>
+            <point key="canvasLocation" x="225" y="237.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="line" width="1024" height="52"/>
+    </resources>
+</document>

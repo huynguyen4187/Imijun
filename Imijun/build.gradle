@@ -1,0 +1,81 @@
+
+
+//-------------------------------
+// xcode plugin   
+//-------------------------------
+plugins {
+  id "org.openbakery.xcode-plugin" version "0.13.1"
+}
+
+//-------------------------------
+// load default config file      
+//-------------------------------
+
+def default_env_conf_url = file("default.gradle").toURL()
+def config = new ConfigSlurper().parse(default_env_conf_url)
+
+// load environment config file
+if (hasProperty('env')) {
+  def env_config_url = file("${env}.gradle").toURL()
+  config = config.merge(new ConfigSlurper().parse(env_config_url))
+}
+
+
+
+//-------------------------------
+// settings of xcode plugin      
+//-------------------------------
+
+xcodebuild {
+  type = config.app.type
+  simulator=false
+  scheme = config.app.scheme
+  target = config.app.target
+  bundleNameSuffix = config.app.bundleNameSuffix
+  configuration = config.app.configuration
+  workspace = config.app.workspace
+
+  signing {
+    certificateURI = config.certificate.certificateURI
+    certificatePassword = config.certificate.certificatePassword
+    mobileProvisionURI = config.certificate.mobileProvisionURI
+    identity = config.certificate.identity
+  }
+
+  infoPlist = config.plist.infoPlist
+}
+
+infoplist {
+  bundleDisplayName = config.plist.bundleDisplayName
+  bundleDisplayNameSuffix = config.plist.bundleDisplayNameSuffix
+  bundleIdentifier = config.plist.bundleIdentifier
+  bundleIdentifierSuffix = config.plist.bundleIdentifierSuffix
+}
+
+//-------------------------------
+// custom tasks                  
+//-------------------------------
+
+task adhoc(dependsOn: ["archive","package"]) << {
+  description = 'creating adhoc ipa file'
+}
+ 
+//adhoc.dependsOn "package"
+ 
+task release(dependsOn: ["archive","package"]) << {
+  description = 'creating xcodearchive'
+}
+ 
+gradle.taskGraph.whenReady { taskGraph ->
+ 
+  def revisionHash = ["sh",  "-c",  "cd ${project.rootDir} ; git rev-parse --short HEAD"].execute().in.text.trim()
+ 
+  if (taskGraph.hasTask(adhoc)) {
+    println "CONFIGURE Adhoc"
+    xcodebuild {
+      // additionalParameters = ["PRODUCT_NAME=${config.plist.bundleDisplayName}"]
+    }
+    infoplist {
+    }
+  }
+}
